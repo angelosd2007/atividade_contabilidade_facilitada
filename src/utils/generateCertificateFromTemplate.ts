@@ -17,11 +17,11 @@ const COURSE_X_PT = px(170)
 const COURSE_LINE1_BASELINE_PT = pyTopToBottom(1010)
 const COURSE_LINE2_BASELINE_PT = pyTopToBottom(1090)
 const COURSE_MAX_WIDTH_PT = px(2200 - 170)
-const COURSE_SIZE_PT = 20
+const COURSE_SIZE_PT = 17
 
 const DATE_X_PT = px(170)
 const DATE_BASELINE_PT = pyTopToBottom(1310)
-const DATE_SIZE_PT = 28
+const DATE_SIZE_PT = 22
 
 const COURSE_MASK = {
   x: px(125),
@@ -87,7 +87,7 @@ export async function generateCertificatePdf(input: CertificateInput): Promise<U
   page.drawText(studentName, {
     x: NAME_X_PT,
     y: NAME_BASELINE_Y_PT,
-    font: fontRegular,
+    font: fontBold,
     size: NAME_SIZE_PT,
     color: TEXT_BLACK,
   })
