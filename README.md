@@ -121,4 +121,10 @@ não depender de CDN externa.
 
 ## URL de produção
 
-A definir após primeiro deploy na Vercel.
+**https://atividade-contabilidade-facilitada.vercel.app**
+
+Exemplo com os parâmetros do enunciado:
+
+```
+https://atividade-contabilidade-facilitada.vercel.app/?curso=Reforma+Tribut%C3%A1ria&horas=06&data=17.04.2026
+```
