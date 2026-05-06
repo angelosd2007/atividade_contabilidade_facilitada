@@ -20,7 +20,7 @@ const COURSE_MAX_WIDTH_PT = px(2200 - 170)
 const COURSE_SIZE_PT = 17
 
 const DATE_X_PT = px(170)
-const DATE_BASELINE_PT = pyTopToBottom(1290)
+const DATE_BASELINE_PT = pyTopToBottom(1320)
 const DATE_SIZE_PT = 18
 
 const COURSE_MASK = {
@@ -32,9 +32,9 @@ const COURSE_MASK = {
 
 const DATE_MASK = {
   x: px(125),
-  y: pyTopToBottom(1335),
+  y: pyTopToBottom(1325),
   width: px(640 - 125),
-  height: px(1335 - 1230),
+  height: px(1325 - 1230),
 }
 
 let cachedAssets: Promise<{
