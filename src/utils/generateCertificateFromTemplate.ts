@@ -21,7 +21,7 @@ const COURSE_SIZE_PT = 17
 
 const DATE_X_PT = px(170)
 const DATE_BASELINE_PT = pyTopToBottom(1310)
-const DATE_SIZE_PT = 20
+const DATE_SIZE_PT = 18
 
 const COURSE_MASK = {
   x: px(125),
@@ -103,7 +103,7 @@ export async function generateCertificatePdf(input: CertificateInput): Promise<U
   page.drawText(formattedDate, {
     x: DATE_X_PT,
     y: DATE_BASELINE_PT,
-    font: fontBold,
+    font: fontRegular,
     size: DATE_SIZE_PT,
     color: TEXT_BLACK,
   })
